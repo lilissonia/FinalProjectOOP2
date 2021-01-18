@@ -45,7 +45,7 @@ class EditmakananActivity : AppCompatActivity() {
             }
             Constant.TYPE_READ -> {
                 btn_savemakanan.visibility = View.GONE
-                getKoi()
+                getmakanan()
             }
         }
     }
