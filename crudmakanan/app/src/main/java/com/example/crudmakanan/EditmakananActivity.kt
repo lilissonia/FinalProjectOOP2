@@ -45,17 +45,17 @@ class EditmakananActivity : AppCompatActivity() {
             }
             Constant.TYPE_READ -> {
                 btn_savemakanan.visibility = View.GONE
-                getmakanan()
+                getMakanan()
             }
         }
     }
 
-    fun getKoi() {
+    fun getMakanan() {
         makananId = intent.getIntExtra("intent_id", 0)
         CoroutineScope(Dispatchers.IO).launch {
             val kois =  db.makananDao().getmakanan( makananId )[0]
-            txt_menu.setText( kois.menu )
-            txt_harga.setText( kois.harga.toString() )
+            txt_menu.setText( makanans.menu )
+            txt_harga.setText( makanans.harga.toString() )
         }
     }
 
