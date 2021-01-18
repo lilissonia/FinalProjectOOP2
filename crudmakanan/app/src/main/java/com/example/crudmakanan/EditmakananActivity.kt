@@ -53,7 +53,7 @@ class EditmakananActivity : AppCompatActivity() {
     fun getMakanan() {
         makananId = intent.getIntExtra("intent_id", 0)
         CoroutineScope(Dispatchers.IO).launch {
-            val kois =  db.makananDao().getmakanan( makananId )[0]
+            val makanans =  db.makananDao().getmakanan( makananId )[0]
             txt_menu.setText( makanans.menu )
             txt_harga.setText( makanans.harga.toString() )
         }
