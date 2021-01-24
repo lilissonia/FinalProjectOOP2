@@ -12,17 +12,17 @@
         android:layout_height="98dp"
         android:layout_marginTop="228dp"
         android:layout_marginBottom="136dp"
-        android:background="@drawable/button_add"
         android:text="User"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/button_add"
         tools:ignore="MissingConstraints,UnknownId" />
 
     <Button
-        android:id="@+id/btn_makanan"
+        android:id="@+id/btn_Makanan"
         android:layout_width="241dp"
         android:layout_height="96dp"
         android:layout_marginTop="40dp"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_user" />
 
     <ImageView
-        android:id="@+id/logo"
+        android:id="@+id/imageView2"
         android:layout_width="243dp"
         android:layout_height="127dp"
         android:layout_marginTop="16dp"

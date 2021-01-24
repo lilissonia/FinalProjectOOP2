@@ -12,12 +12,12 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.example.crudmakanan.UserAdapter"
             tools:ignore="Instantiatable" />
-        <activity android:name="com.example.crudmakanan.makananAdapter"
+        <activity android:name="com.example.crudmakanan.MakananAdapter"
             tools:ignore="Instantiatable" />
         <activity android:name="com.example.crudmakanan.EditUserActivity" />
         <activity android:name="com.example.crudmakanan.UserActivity" />
-        <activity android:name="com.example.crudmakanan.EditmakananActivity" />
-        <activity android:name="com.example.crudmakanan.makananActivity" />
+        <activity android:name="com.example.crudmakanan.EditMakananActivity" />
+        <activity android:name="com.example.crudmakanan.MakananActivity" />
         <activity android:name="com.example.crudmakanan.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_makanan.setOnClickListener{
-            val intent = Intent(this, makananActivity::class.java)
+        btn_Makanan.setOnClickListener{
+            val intent = Intent(this, MakananActivity::class.java)
             startActivity(intent)
         }
 
